@@ -7,7 +7,7 @@ const word = "PEAW";
 export default class App extends Component {
   render() {
     return (
-      <div className="App">dfg
+      <div className="App">
         <CharacterCard value="h" />
         <CharacterCard value="i" />
         <WordCard value="hello" />
