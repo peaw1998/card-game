@@ -1,12 +1,15 @@
-import React, { Component } from 'react';
-import './App.css';
-class App extends Component {
+import React, {Component} from 'react';
+import CharacterCard from './CharactorCard';
+export default class App extends Component {
  render() {
  return (
- <div className="App">
- Hello World
+ <div>
+ <CharacterCard value="h"/>
+<CharacterCard value="i"/>
+{
+  Array.from(word).map((c, i) => <CharacterCard value={c} key={i}/>)
+  }
  </div>
  );
  }
 }
-export default App;
