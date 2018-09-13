@@ -7,10 +7,10 @@ const word = "PEAW";
 export default class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App">dfg
         <CharacterCard value="h" />
         <CharacterCard value="i" />
-        <WordCard value="hello"/>
+        <WordCard value="hello" />
         {
           Array.from(word).map((c, i) => <CharacterCard value={c} key={i} />)
         }
